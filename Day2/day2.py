@@ -29,3 +29,7 @@ def day2_2(file):
             elif data[0] == 'down':
                 aim -= int(data[1])
     return horizontal * abs(vertical)  # absolute, because of depth
+
+
+if __name__ == '__main__':
+    print(day2_1('input.txt'))

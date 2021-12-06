@@ -1,6 +1,5 @@
-from modules.day2 import day2_1, day2_2
+from Day3 import day3
 
 
 if __name__ == '__main__':
-    result = day2_2('data_files/directions.txt')
-    print(f'{result:,}')
+    print(day3.day3_2('Day3/input1.txt'))
